@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Automation Suite 1" parallel="tests" thread-count="2" verbose="10" >
+
+    <!--<parameter name="os" value="windows"/>
+    <parameter name="node" value="node_url_here"/>-->
+
+    <test name="Test 1 Chrome" preserve-order="true">
+        <parameter name="currentBrowser" value="Chrome"/>
+        <classes>
+            <class name="testautomationjava.testscripts.LoginTest">
+                <methods>
+                    <include name="loginWithValidCredentialsTest"/>
+                    <!--<include name="loginWithInvalidCredentialsTest"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test 1 Firefox" preserve-order="true">
+        <parameter name="currentBrowser" value="Firefox"/>
+        <classes>
+            <class name="testautomationjava.testscripts.LoginTest">
+                <methods>
+                    <include name="loginWithValidCredentialsTest"/>
+                    <!--<include name="loginWithInvalidCredentialsTest"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

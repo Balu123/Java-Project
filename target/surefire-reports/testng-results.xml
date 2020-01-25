@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Automation Suite 2" duration-ms="44328" started-at="2019-11-07T13:04:09Z" finished-at="2019-11-07T13:04:53Z">
+    <groups>
+    </groups>
+    <test name="Test 2 Chrome" duration-ms="40017" started-at="2019-11-07T13:04:09Z" finished-at="2019-11-07T13:04:49Z">
+      <class name="testautomationjava.testscripts.LoginTest">
+        <test-method status="PASS" signature="setDriver(java.lang.String, org.testng.ITestContext)[pri:0, instance:testautomationjava.testscripts.LoginTest@4f7d0008]" name="setDriver" is-config="true" duration-ms="32848" started-at="2019-11-07T13:04:09Z" finished-at="2019-11-07T13:04:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4bec1f0c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="loginWithInvalidCredentialsTest()[pri:0, instance:testautomationjava.testscripts.LoginTest@4f7d0008]" name="loginWithInvalidCredentialsTest" duration-ms="3324" started-at="2019-11-07T13:04:42Z" finished-at="2019-11-07T13:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentialsTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testautomationjava.testscripts.LoginTest@4f7d0008]" name="quitDriver" is-config="true" duration-ms="3616" started-at="2019-11-07T13:04:45Z" finished-at="2019-11-07T13:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testautomationjava.testscripts.LoginTest -->
+    </test> <!-- Test 2 Chrome -->
+    <test name="Test 2 Firefox" duration-ms="44328" started-at="2019-11-07T13:04:09Z" finished-at="2019-11-07T13:04:53Z">
+      <class name="testautomationjava.testscripts.LoginTest">
+        <test-method status="PASS" signature="setDriver(java.lang.String, org.testng.ITestContext)[pri:0, instance:testautomationjava.testscripts.LoginTest@4cf777e8]" name="setDriver" is-config="true" duration-ms="35951" started-at="2019-11-07T13:04:09Z" finished-at="2019-11-07T13:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@29ca901e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="loginWithInvalidCredentialsTest()[pri:0, instance:testautomationjava.testscripts.LoginTest@4cf777e8]" name="loginWithInvalidCredentialsTest" duration-ms="1754" started-at="2019-11-07T13:04:45Z" finished-at="2019-11-07T13:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentialsTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testautomationjava.testscripts.LoginTest@4cf777e8]" name="quitDriver" is-config="true" duration-ms="6519" started-at="2019-11-07T13:04:46Z" finished-at="2019-11-07T13:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testautomationjava.testscripts.LoginTest -->
+    </test> <!-- Test 2 Firefox -->
+  </suite> <!-- Test Automation Suite 2 -->
+  <suite name="Test Automation Suite 1" duration-ms="49419" started-at="2019-11-07T13:04:09Z" finished-at="2019-11-07T13:04:58Z">
+    <groups>
+    </groups>
+    <test name="Test 1 Chrome" duration-ms="48385" started-at="2019-11-07T13:04:09Z" finished-at="2019-11-07T13:04:57Z">
+      <class name="testautomationjava.testscripts.LoginTest">
+        <test-method status="PASS" signature="setDriver(java.lang.String, org.testng.ITestContext)[pri:0, instance:testautomationjava.testscripts.LoginTest@66a3ffec]" name="setDriver" is-config="true" duration-ms="34088" started-at="2019-11-07T13:04:09Z" finished-at="2019-11-07T13:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5649fd9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="loginWithValidCredentialsTest()[pri:0, instance:testautomationjava.testscripts.LoginTest@66a3ffec]" name="loginWithValidCredentialsTest" duration-ms="12311" started-at="2019-11-07T13:04:43Z" finished-at="2019-11-07T13:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testautomationjava.testscripts.LoginTest@66a3ffec]" name="quitDriver" is-config="true" duration-ms="1789" started-at="2019-11-07T13:04:55Z" finished-at="2019-11-07T13:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testautomationjava.testscripts.LoginTest -->
+    </test> <!-- Test 1 Chrome -->
+    <test name="Test 1 Firefox" duration-ms="49419" started-at="2019-11-07T13:04:09Z" finished-at="2019-11-07T13:04:58Z">
+      <class name="testautomationjava.testscripts.LoginTest">
+        <test-method status="PASS" signature="setDriver(java.lang.String, org.testng.ITestContext)[pri:0, instance:testautomationjava.testscripts.LoginTest@31ef45e3]" name="setDriver" is-config="true" duration-ms="36732" started-at="2019-11-07T13:04:09Z" finished-at="2019-11-07T13:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6adede5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="loginWithValidCredentialsTest()[pri:0, instance:testautomationjava.testscripts.LoginTest@31ef45e3]" name="loginWithValidCredentialsTest" duration-ms="8476" started-at="2019-11-07T13:04:45Z" finished-at="2019-11-07T13:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testautomationjava.testscripts.LoginTest@31ef45e3]" name="quitDriver" is-config="true" duration-ms="4098" started-at="2019-11-07T13:04:54Z" finished-at="2019-11-07T13:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testautomationjava.testscripts.LoginTest -->
+    </test> <!-- Test 1 Firefox -->
+  </suite> <!-- Test Automation Suite 1 -->
+  <suite name="allSuites" duration-ms="0" started-at="2019-11-07T13:04:58Z" finished-at="2019-11-07T13:04:58Z">
+    <groups>
+    </groups>
+  </suite> <!-- allSuites -->
+</testng-results>
