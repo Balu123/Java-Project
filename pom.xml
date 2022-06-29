@@ -17,7 +17,7 @@
         <seleniumjavaVersion>3.14.0</seleniumjavaVersion>
         <webdrivermanagerVersion>3.3.0</webdrivermanagerVersion>
         <testngVersion>6.14.3</testngVersion>
-        <apachepoiVersion>4.0.1</apachepoiVersion>
+        <apachepoiVersion>4.1.1</apachepoiVersion>
         <apachepoiooxmlVersion>4.0.1</apachepoiooxmlVersion>
         <sl4jjclVersion>1.7.0</sl4jjclVersion>
         <sl4japiVersion>1.7.0</sl4japiVersion>
