@@ -22,7 +22,7 @@
         <sl4jjclVersion>1.7.0</sl4jjclVersion>
         <sl4japiVersion>1.7.0</sl4japiVersion>
         <sl4jlog4j12Version>1.7.0</sl4jlog4j12Version>
-        <postgresqlVersion>42.2.5</postgresqlVersion>
+        <postgresqlVersion>42.4.1</postgresqlVersion>
         <threads>2</threads>
         <file>src/test/resources/suiteexecutables/testng.xml</file>
     </properties>
